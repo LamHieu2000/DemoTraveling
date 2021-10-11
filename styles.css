@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 1080px;
+    margin: auto;
+}
+
+header{
+    height: 150px;
+    background-color: rgb(247, 140, 0);
+    margin-bottom: 1px;
+}
+
+h1{
+    float: right;
+    margin: 50px 90px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+header img{
+    height: 150px;
+    width: auto;
+    padding-left: 20px;
+
+}
+
+article .boxitem{
+    margin-top: -3px;
+    padding: 1px;
+    height: 120px;
+    background-color: cornflowerblue;
+    
+}
+
+article .boxitem .frame-search img{
+    width: 80px;
+    height: 80px;
+    margin-top: 18px;
+}
+
+article .boxitem .frame-search{
+    padding: 5px;
+    float: left;
+    padding-left: 13%;
+    margin-top: 15px;
+    text-align: center;
+    
+}
+nav{
+    height: 40px;
+    background: cornflowerblue;
+    margin-bottom: 1px; 
+}
+
+nav .menu ul{
+    list-style: none;
+}
+
+nav .menu ul li{
+    float: letf;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+nav .menu ul li a{
+   
+   color: white;
+   font-size: 14px;
+   text-decoration: none;
+}
+
+ul.mainmenu{
+    text-align: left;
+    color: white;
+}
+ 
+ul.mainmenu li{
+    display:inline;
+}
+ 
+ul.mainmenu li a{
+    display:inline-block;
+}
+
+nav .search{
+    line-height: 40px;
+    float: right;
+    margin-right: 25px;
+}
+
+#slide img{
+    width: 1080px;
+    height: 240px;
+}
+article h3{
+    text-align: center;
+    padding: 15px 0;
+    color: orange;
+    font-size: 25px;
+}
+
+article .place_list .place_item {
+    padding: 1%;
+    float: left;
+    border: 1px solid orangered;
+    margin-right: 1%;
+    margin-left: 1%;
+    text-align: center;
+}
+article .place_list .place_item h2 {
+   font-size: 20px;
+   color: black;
+}
+
+article .place_list .place_item img{
+    width: 310px;
+    height: 310px;
+}
+
+footer h3{
+    height: 40px;
+    background: dodgerblue;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 6px;
+  
+}
+
+footer .pos .text-content{
+    text-align: center;
+}
